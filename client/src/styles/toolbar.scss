@@ -1,0 +1,63 @@
+@import "./variables";
+
+.toolbar{
+  height: $toolbar-height;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  box-shadow: 0 4px 5px gray;
+  z-index: 999;
+
+
+  &__btn {
+    height: 25px;
+    width: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-size: cover;
+    margin-left: 10px;
+  }
+  .brush {
+    background: url('../assets/img/brush.png');
+  }
+  .rect {
+    background: url('../assets/img/rect.png');
+  }
+  .circle {
+    background: url('../assets/img/circle.png');
+  }
+  .eraser {
+    background: url('../assets/img/eraser.png');
+  }
+  .line {
+    background: url('../assets/img/line.png');
+  }
+  .palette {
+    background: url('../assets/img/palette.png');
+  }
+  .undo {
+    background: url('../assets/img/undo.png');
+    margin-left: auto;
+  }
+  .redo {
+    background: url('../assets/img/redo.png');
+  }
+  .save {
+    background: url('../assets/img/save.png');
+    margin-right: 10px;
+  }
+}
+
+.setting-bar {
+  height: $toolbar-height;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  box-shadow: 0 4px 5px gray;
+  top:$toolbar-height;
+}

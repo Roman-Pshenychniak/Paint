@@ -1,0 +1,19 @@
+A file for logging problems that exist at the moment.
+
+1) I draw a line, release it, and a new one starts drawing immediately
+And a new one should be drawn when I press the left button again, but it doesn't happen
+
+2) Sometimes strange things happen when you switch between tiles, and the last point of the previous one and the first point of the current one are connected by a straight line
+
+3) When we draw with a different color and thickness on one socket, the same is transferred to another socket
+And ideally, after we have accepted a drawing on a socket, we should still maintain our state of color, line thickness, and so on.
+
+
+
+Block for describing what needs to be done, ideas, thoughts, improvements
+
+1) Logging service to track errors on the service and the client
+
+2) Improve the design
+
+3) Decomposition of the front
